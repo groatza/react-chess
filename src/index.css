@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .react-icons {
+        @apply h-10 w-10 absolute;
+    }
+    .w {
+        @apply text-white;
+    }
+    .b {
+        @apply text-black;
+    }
+    .possible {
+        @apply bg-black;
+    }
+    .legal-move-dot {
+        @apply h-5 w-5 bg-black rounded-full;
+    }
+}
